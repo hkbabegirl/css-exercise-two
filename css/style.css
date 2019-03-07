@@ -1,25 +1,28 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #444444;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #452DE3;
   float: left;
   position: fixed;
   width: 100%;
 }
 
 .logo {
+  background-image: url('../images/bloc-logo.png') ;
   margin: 20px;
-  width: 100px;
+  width: 20px;
 }
 
 .large-pic {
-  width: 100%;
+  width: 200%;
 }
 
 .medium-pic {
+  background: url('../images/instagram-pic.jpg')  Center ;
   width: 70%;
 }
 
@@ -33,7 +36,6 @@ nav {
 }
 
 ul {
-  list-style-type: none;
   float: right;
 }
 
@@ -45,6 +47,31 @@ li {
 article {
   padding-top: 100px;
 }
+
+
+h1 {
+  font-size: 40px;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 120%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {color: #FFFFFF;}
+a:visited {color: #9792B3;}
+a:hover {color: #9792B3;}
+a:active {color: #9792B9;}
 
 .container {
   margin: 0 auto;
